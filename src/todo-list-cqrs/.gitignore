@@ -9,7 +9,8 @@
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
-
+# user data created from the runtime
+*/.data/*
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -260,5 +261,9 @@ paket-files/
 __pycache__/
 *.pyc
 
-# Eventually secrets
-**/.env*
+# lib files
+TodoList.Web/wwwroot/lib/
+.vscode/
+
+# pgsql data file
+pgdata/
